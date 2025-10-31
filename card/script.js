@@ -1,22 +1,3 @@
-  // check login immediately on page load
-  (function () {
-    try {
-      if (localStorage.getItem('isLoggedIn') !== 'true') {
-        // not logged in -> go back to keypad
-        window.location.href = 'login.html'; // replace with your actual keypad filename/case
-      }
-    } catch (err) {
-      console.error('Login check failed:', err);
-      // fallback — redirect to login
-      window.location.href = 'login.html';
-    }
-  })();
-
-
-
-
-
-
 // audio UI enhancer — transforms <audio> tags inside #music into styled tracks
 (() => {
   const container = document.getElementById('music');

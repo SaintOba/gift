@@ -89,7 +89,7 @@ nav ul li a:hover{
         gap: 15px;
     }
     .gallery img{
-        width: 100px;
+        width: 150px;
         height: 150px;
     }
     
@@ -200,4 +200,5 @@ nav ul li a.active {
   font-weight: bold;
   text-decoration: underline;
 }
+
 

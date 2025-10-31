@@ -4,62 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Love</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    
 </head>
-<body>
-    <div class="top">
-        <h1>💖For My Baby💖</h1>
-        <p>A special place just for you</p>
+<body>    
+
+    <div class="login-container">
+        <img src="imgs.jpg" alt="">
+        <div>
+             <h2>Enter Pin</h2>
+            <input type="password" id="pinInput" readonly>
+            <div class="keypad">
+                <button class="keypad-button" data-value="1">1</button>
+                <button class="keypad-button" data-value="2">2</button>
+                <button class="keypad-button" data-value="3">3</button>
+                <button class="keypad-button" data-value="4">4</button>
+                <button class="keypad-button" data-value="5">5</button>
+                <button class="keypad-button" data-value="6">6</button>
+                <button class="keypad-button" data-value="7">7</button>
+                <button class="keypad-button" data-value="8">8</button>
+                <button class="keypad-button" data-value="9">9</button>
+                <button class="keypad-button" data-value="del">del</button>
+                <button class="keypad-button" data-value="0">0</button>
+                <button class="keypad-button" data-value="ok">ok</button>
+            </div>
+        </div>
     </div>
+    
 
-    <nav>
-  <ul>
-    <li><a href="#" data-target="message">Special Message💌</a></li>
-    <li><a href="#" data-target="music">Music🎵</a></li>
-    <li><a href="#" data-target="gallery">Gallery📷</a></li>
-    <li><a href="#" data-target="notes">Notes📔</a></li>
-  </ul>
-</nav>
-
-
-    <div class="message" id="message">
-        <h2>My Dearest Love,</h2>
-        <p>Every moment with you is a treasure. Your smile lights up my world, and your love fills my heart with joy. I am so grateful to have you in my life. You are my everything, and I promise to cherish and love you forever.</p>
-        <p>With all my love,</p>
-        <p>Your Baby 💖</p>
-    </div>
-
-    <div class="music" id="music">
-        <audio controls src="assets/music/BAD GIRL - OLUMIDE & WAV.mp3"></audio>
-
-        <audio controls src="assets/music/Folashade_ .wav ft olumide.mp3"></audio>
-
-        <audio controls src="assets/music/Rema_-_FUN(256k).mp3"></audio>
-
-        <audio controls src="assets/music/YII!(256k).mp3"></audio>
-    </div>
-   
-
-    <div class="gallery" id="gallery">
-        <img src="assets/images/31348.JPG" alt="">
-        <img src="assets/images/31350.jpg" alt="">
-        <img src="assets/images/31352.jpg" alt="">
-        <img src="assets/images/31354.jpg" alt="">
-        <img src="assets/images/33183.jpg" alt="">
-        <img src="assets/images/23777.jpg" alt="">
-        <img src="assets/images/23779.jpg" alt="">
-        <img src="assets/images/23781.jpg" alt="">
-        <img src="assets/images/23783.jpg" alt="">
-        <img src="assets/images/23785.jpg" alt="">
-        <img src="assets/images/23787.jpg" alt="">
-        <img src="assets/images/23789.jpg" alt="">
-    </div>
-
-    <div class="notes" id="notes">
-        <textarea id="noteArea" placeholder="Write your notes here..."></textarea>
-        <button class="save-btn" id="saveNote">Save Note</button>
-    </div>
-
-    <script src="script.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>

@@ -54,6 +54,26 @@ img{
     background-color: #f9f9f9;
 }
 
+.keypad-button:hover{
+    background-color: #ff69b4;
+    color: #fff;
+}
+
 .keypad-button:active{
-    background-color: #0e0e0e;
+    background-color: #ff1493;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .login-container{
+        flex-direction: column;
+        width: 90%;
+    }
+    img{
+        margin-top: 0;
+        width: 150px;
+        height: 200px;
+        align-self: center;
+    }
+
 }

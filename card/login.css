@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blue;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 100px;
+    margin-top: 45px;
+     box-shadow: 5px 10px rgb(255, 144, 162);
+}
+
+.login-container{
+    display: flex;
+    gap: 30px;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background: pink;
+    box-shadow: 5px 10px rgb(255, 144, 162);
+}
+
+#pinInput{
+    width: calc(100% - 20px);
+    padding:10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.keypad-button{
+    padding: 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    background-color: #f9f9f9;
+}
+
+.keypad-button:active{
+    background-color: #0e0e0e;
+}

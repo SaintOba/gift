@@ -5,7 +5,9 @@
 }
 
 body{
-    background: blue;
+    background: #a84c6a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
 }
 
 img{
@@ -13,7 +15,7 @@ img{
     height: 250px;
     border-radius: 100px;
     margin-top: 45px;
-     box-shadow: 5px 10px rgb(255, 144, 162);
+    box-shadow: 5px 10px rgb(255, 144, 162);
 }
 
 .login-container{
@@ -27,6 +29,11 @@ img{
     text-align: center;
     background: pink;
     box-shadow: 5px 10px rgb(255, 144, 162);
+}
+
+h2{
+    margin-bottom: 20px;
+    font-family: 'Cursive', sans-serif;
 }
 
 #pinInput{
